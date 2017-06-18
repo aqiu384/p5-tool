@@ -24,7 +24,9 @@
       const l = window.location
       const csrParam = 'csr'
       if (l.search && l.search.includes(csrParam)) {
-        const pathParams = l.search.slice(l.search.indexOf(csrParam) + csrParam.length + 1)
+        const pathParams = decodeURIComponent(
+          l.search.slice(l.search.indexOf(csrParam) + csrParam.length + 1)
+        )
         const searchParams = l.search.slice(1, l.search.indexOf(csrParam) - 1)
         const replacePath = (
           (l.pathname.slice(-1) === '/' ? l.pathname.slice(0, -1) : l.pathname) +

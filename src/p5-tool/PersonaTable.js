@@ -5,6 +5,7 @@ import BatchLoadTable from './common/BatchLoadTable'
 
 import { combineColumns, compEntry, BaseStats, Resistances, Inherits } from './DataFields'
 import PersonaData from './data/PersonaData'
+import SpecialRecipes from './data/SpecialRecipes'
 
 class PersonaTable extends React.PureComponent {
   shouldComponentUpdate(nextProps, nextState) {
@@ -29,7 +30,16 @@ class PersonaTable extends React.PureComponent {
 
     const data = Object.keys(personas).map( (name) => {
       const { lvl, arcana, inherits, stats, resists } = personas[name]
-      return { key: name, arcana: { arcana, lvl }, lvl, name, inherits, ...stats, ...resists }
+      const row = {
+        key: name, arcana: { arcana, lvl },
+        lvl, name, inherits, ...stats, ...resists
+      }
+
+      if (SpecialRecipes.hasOwnProperty(name) && SpecialRecipes[name].length === 0) {
+        row.rowClass = 'persona treasure'
+      }
+
+      return row
     } )
 
     return (

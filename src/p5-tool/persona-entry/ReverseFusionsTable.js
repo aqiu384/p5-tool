@@ -7,10 +7,10 @@ import { combineColumns, addColumnSuffix, compEntry, SpecialCondition } from '..
 import { calculateReverseFusions } from './FusionCalculations'
 import PersonaData from '../data/PersonaData'
 
-function SpecialFusionTable({ tabGroups, condition }) {
+function SpecialFusionTable({ tabGroups, condition, url }) {
   return (<Table {...{
     headers: tabGroups,
-    columns: SpecialCondition,
+    columns: SpecialCondition({ url }),
     data: [ { key: 0, condition } ]
   }}/>)
 }
@@ -62,13 +62,29 @@ class ReverseFusionsTable extends React.PureComponent {
           </BatchLoadTable>
         )
       case 'notOwned':
-        return <SpecialFusionTable {...{ condition: 'DLC marked as not owned', tabGroups }}/>
+        return <SpecialFusionTable {...{
+          condition: [ 'DLC marked as not owned' ],
+          url: personasUrl,
+          tabGroups
+        }}/>
       case 'special': 
-        return <SpecialFusionTable {...{ condition: recipes[0], tabGroups }}/>
+        return <SpecialFusionTable {...{
+          condition: recipes[0],
+          url: personasUrl,
+          tabGroups
+        }}/>
       case 'recruit': 
-        return <SpecialFusionTable {...{ condition: 'Recruitment Only', tabGroups }}/>
+        return <SpecialFusionTable {...{
+          condition: [ 'Recruitment Only ' ],
+          url: personasUrl,
+          tabGroups
+        }}/>
       default:
-        return <SpecialFusionTable {...{ condition: 'Unknown Entry', tabGroups }}/>
+        return <SpecialFusionTable {...{
+          condition: [ 'Unknown Entry' ],
+          url: personasUrl,
+          tabGroups
+        }}/>
     }
   }
 }

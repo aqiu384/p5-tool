@@ -7,7 +7,7 @@
       const l = window.location
       const csrParam = 'csr'
       const siteRoot = '/p5-tool'
-      const pathParams = l.pathname.slice(siteRoot.length)
+      const pathParams = encodeURIComponent(l.pathname.slice(siteRoot.length))
       const replacePath = (
         l.protocol + '//' + l.hostname + (l.prot ? ':' + l.port : '') +
         siteRoot + (l.search ? l.search + '&' : '?') +

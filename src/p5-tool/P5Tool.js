@@ -57,6 +57,9 @@ class P5Tool extends React.PureComponent {
     return (
       <Switch>
         <Route exact path={match.url} render={ () => <Redirect to={personasUrl}/> }/>
+        <Route path="/index.html" render={ () => <Redirect to={`${baseUrl}/personas`}/> }/> 
+        <Route path="/skills.html" render={ () => <Redirect to={`${baseUrl}/skills`}/> }/> 
+        <Route path="/personas.html" render={ () => <Redirect to={`${baseUrl}/personas`}/> }/> 
         <Route path={`${baseUrl}/:tab`} render={ ({ match }) => (
           <div className="compendium">
             <div className={match.isExact ? 'show' : 'hide'}>

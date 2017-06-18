@@ -9,7 +9,11 @@ const CompareObjLens = (key) => (a, b) => Object.keys(a[key]).length - Object.ke
 
 // Resistances
 
-const Elements = [ 'phys', 'gun', 'fire', 'ice', 'elec', 'wind', 'psy', 'nuke', 'bless', 'curse' ]
+const Elements = [
+  'phys', 'gun',
+  'fire', 'ice', 'elec', 'wind',
+  'psy', 'nuke', 'bless', 'curse'
+]
 
 const ResistanceOrder = [
   'ab', 'rp', 'nu', 'rs', '-', 'wk'
@@ -19,19 +23,19 @@ const ResistanceTd = ({ val }) => (
   <td className={'resists ' + (val === '-' ? 'no' : val)}>{val}</td>
 )
 
-function SimpleTh(val) {
-  return val
-}
-
-function ElementTh(element) {
-  return <th>Elem: {element}</th>
-}
+const SimpleTh = (val) => (val)
 
 const Resistances = {
   colOrder: Elements,
-  headerFormat: Elements.reduce( (acc, val) => { acc[val] = <img src={ElementIcons[val]} alt={val}/>; return acc }, {} ),
-  rowFormat: Elements.reduce( (acc, val) => { acc[val] = ResistanceTd; return acc }, {} ),
-  sortFun: Elements.reduce( (acc, val) => { acc[val] = CompareKeys(ResistanceOrder); return acc }, {} )
+  headerFormat: Elements.reduce( (acc, val) => {
+    acc[val] = <img src={ElementIcons[val]} alt={val}/>; return acc
+  }, {} ),
+  rowFormat: Elements.reduce( (acc, val) => {
+    acc[val] = ResistanceTd; return acc
+  }, {} ),
+  sortFun: Elements.reduce( (acc, val) => {
+    acc[val] = CompareKeys(ResistanceOrder); return acc
+  }, {} )
 }
 
 // Skills
@@ -83,15 +87,20 @@ const PersonaLinkTd = ({ url }) => (
   )
 )
 
-const PersonaLinkListTd = ({ url }) => (
+const SkillLearnedByTd = ({ url }) => (
   ({ val }) => (
-    <td><ul>{Object.keys(val).map( name => <li key={name}><Link to={`${url}/${name}`}>{name}</Link></li> )}</ul></td>
+    <td><ul>{Object.keys(val).map( name => {
+      const lvl = val[name] !== 0 ? ` (${val[name]})` : ''
+      return <li key={name}><Link to={`${url}/${name}`}>{name}{lvl}</Link></li> 
+    } )}</ul></td>
   )
 )
 
-const PersonaLinkListNotTd = ({ url }) => (
+const PersonaLinkListTd = ({ url }) => (
   ({ val }) => (
-    <td><ul>{val.map( name => <li key={name}><Link to={`${url}/${name}`}>{name}</Link></li> )}</ul></td>
+    <td><ul>{val.map( name => 
+      <li key={name}><Link to={`${url}/${name}`}>{name}</Link></li> )}
+    </ul></td>
   )
 )
 
@@ -104,8 +113,8 @@ const SkillCards = ({ url }) => ({
   },
   rowFormat: {
     talk: PersonaLinkTd({ url }),
-    fuse: ({ val }) => PersonaLinkListNotTd({ url })({ val: val.split(', ') }),
-    personas: PersonaLinkListTd({ url })
+    fuse: ({ val }) => PersonaLinkListTd({ url })({ val: val.split(', ') }),
+    personas: SkillLearnedByTd({ url })
   },
   sortFun: {
     talk: CompareStrings,
@@ -176,12 +185,20 @@ const Inherits = {
   sortFun: { inherits: CompareKeys(ElementOrder) }
 }
 
-const SpecialCondition = {
+const SpecialConditionTd = ({ url }) => (
+  ({ val }) => (
+    val.length > 1 ?
+      PersonaLinkListTd({ url })({ val }) :
+      SimpleTd({ val })
+  )
+)
+
+const SpecialCondition = ({ url }) => ({
   colOrder: [ 'condition' ],
   headerFormat: { condition: SimpleTh('Special Fusion Condition') },
-  rowFormat: { condition: SimpleTd },
+  rowFormat: { condition: SpecialConditionTd({ url }) },
   sortFun: { condition: CompareStrings }
-}
+})
 
 const DlcPersona = {
   colOrder: [ 'dlc' ],
@@ -201,10 +218,21 @@ const combineColumns = (...cols) => ({
 
 const addColumnSuffix = ({ colOrder, rowFormat, sortFun, headerFormat }, suffix) => ({
   colOrder: colOrder.map( (col) => (col + suffix) ),
-  headerFormat: Object.keys(rowFormat).reduce( (acc, col) => { acc[col + suffix] = headerFormat[col]; return acc }, {} ),
-  rowFormat: Object.keys(rowFormat).reduce( (acc, col) => { acc[col + suffix] = rowFormat[col]; return acc }, {} ),
-  sortFun: Object.keys(sortFun).reduce( (acc, col) => { acc[col + suffix] = sortFun[col]; return acc }, {} )
+  headerFormat: Object.keys(rowFormat).reduce(
+    (acc, col) => { acc[col + suffix] = headerFormat[col]; return acc },
+  {} ),
+  rowFormat: Object.keys(rowFormat).reduce(
+    (acc, col) => { acc[col + suffix] = rowFormat[col]; return acc },
+  {} ),
+  sortFun: Object.keys(sortFun).reduce(
+    (acc, col) => { acc[col + suffix] = sortFun[col]; return acc },
+  {} )
 })
 
-export { combineColumns, addColumnSuffix, compEntry, BaseStats, Resistances, Skills, SkillCards, SkillLevel, ArcanaOrder, Inherits, SpecialCondition, DlcPersona }
+// Exports
 
+export {
+  combineColumns, addColumnSuffix, compEntry,
+  BaseStats, Resistances, Skills, SkillCards, SkillLevel,
+  ArcanaOrder, Inherits, SpecialCondition, DlcPersona
+}

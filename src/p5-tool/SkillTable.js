@@ -28,7 +28,13 @@ class SkillTable extends React.PureComponent {
       const skill = Object.assign({ 
         key: name, cost: 0, talk: '', fuse: '', name, personas: sPersonas[name]
       }, SkillData[name])
+
       skill.element = { element: skill.element, cost: skill.cost }
+
+      if (SkillData[name].unique) {
+        skill.rowClass = 'skill unique'
+      }
+
       return skill
     }) 
 

@@ -41,7 +41,7 @@ function calculateForwardNormalFusions(name1, ingredients, results) {
 
   const { arcana: arcana1, lvl: lvl1 } = PersonaData[name1]
 
-  return ArcanaOrder
+  const recipes = ArcanaOrder
     .filter( (arcana2) => (arcana2 !== arcana1) )
     .reduce( (acc, arcana2) => {
       const arcanaR = FusionChart[ArcanaOrder.indexOf(arcana1)][ArcanaOrder.indexOf(arcana2)]
@@ -63,6 +63,15 @@ function calculateForwardNormalFusions(name1, ingredients, results) {
         return acc
       }, acc )
     }, [] )
+
+  if (NormalFusionExceptions.hasOwnProperty(name1)) {
+    const ind = recipes.indexOf(NormalFusionExceptions[name1])
+    if (ind !== -1) {
+      recipes.splice(ind, 1)
+    }
+  }
+
+  return recipes
 }
 
 function calculateForwardSameArcanaFusions(name1, ingredients, results) {
@@ -306,7 +315,7 @@ function calculateReverseFusions(name, excludedNames) {
     const recipe = SpecialRecipes[name]
     return recipe.length === 0 ?
       { type: 'recruit', recipes: [] } :
-      { type: 'special', recipes: [ recipe.join(' x ') ] }
+      { type: 'special', recipes: [ recipe ] }
   }
 
   const ingredients = excludedNames.reduce( (acc, name) => {

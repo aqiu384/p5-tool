@@ -18,6 +18,18 @@ div.compendium {
 
 /* END compendium common */
 
+/* BEGIN borders special */
+
+tr.skill.unique {
+  background-color: maroon;
+}
+
+tr.persona.treasure {
+  background-color: darkgreen;
+}
+
+/* END borders special */
+
 /* BEGIN div tabs */
 
 div.tab-option {
@@ -105,11 +117,11 @@ td.resists.wk {
 }
 
 td.resists.rs {
-  color: teal;
+  color: lightseagreen;
 }
 
 td.resists.nu {
-  color: darkgray;
+  color: lightgray;
 }
 
 td.resists.rp {
@@ -118,6 +130,10 @@ td.resists.rp {
 
 td.resists.ab {
   color: lime;
+}
+
+td.resists.no {
+  color: black;
 }
 
 /* END td resistances */

@@ -14,8 +14,11 @@ class Row extends React.PureComponent {
   }
 
   render () {
-    const { colOrder, rowFormat, data } = this.props
-    return (<tr>{colOrder.map( (col) => React.createElement(rowFormat[col], { key: col, val: data[col], match: 'none' }) )}</tr>)
+    const { colOrder, rowFormat, data, rowClass } = this.props
+    const className = rowClass ? { className: rowClass } : {}
+    return (<tr {...className}>{colOrder.map( (col) =>
+      React.createElement(rowFormat[col], { key: col, val: data[col] })
+    )}</tr>)
   }
 }
 
@@ -29,7 +32,7 @@ function SimpleTable({ columns: { colOrder, rowFormat, headerFormat }, data = []
         <tr>{colOrder.map( (col) => (<th key={col}>{headerFormat[col]}</th>) )}</tr></thead>
       <tbody>
         {data.map( (row) => (
-          <Row {...{ key: row.key, colOrder, rowFormat, data: row }} />
+          <Row {...{ key: row.key, colOrder, rowFormat, data: row, rowClass: data.rowClass }}/>
         ) )}
       </tbody>
     </table>
@@ -115,10 +118,10 @@ class SortedTable extends React.PureComponent {
         </thead>
         <tbody>
           <tr className="hidden" ref={ (row) => this.handleUpdateColWidths(row) }>
-            {colOrder.map( (col) => (<SortButtonTd {...{ key: col, val: headerFormat[col] }} />) )}
+            {colOrder.map( (col) => <SortButtonTd {...{ key: col, val: headerFormat[col] }}/> )}
           </tr>
           {sortedRows.map( (row) => (
-            <Row {...{ key: row.key, colOrder, rowFormat, data: row }} />
+            <Row {...{ key: row.key, colOrder, rowFormat, data: row, rowClass: row.rowClass }}/>
           ) )}
         </tbody>
       </table>
