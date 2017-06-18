@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>P5 Tool Redirect</title>
+    <script type="text/javascript">
+      const l = window.location
+      const csrParam = 'csr'
+      const siteRoot = '/p5-tool'
+      const pathParams = l.pathname.slice(siteRoot.length)
+      const replacePath = (
+        l.protocol + '//' + l.hostname + (l.prot ? ':' + l.port : '') +
+        siteRoot + (l.search ? l.search + '&' : '?') +
+        csrParam + '=' + pathParams + l.hash
+      )
+      l.replace(replacePath)
+    </script>
+  </head>
+  <body>
+    Please navigate manually to <code>/p5-tool</code>
+  </body>
+</html>

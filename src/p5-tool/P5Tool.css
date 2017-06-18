@@ -1,0 +1,123 @@
+/* BEGIN compendium common */
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+div.compendium {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+/* END compendium common */
+
+/* BEGIN div tabs */
+
+div.tab-option {
+  display: table-cell;
+}
+
+div.tab-group {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* END div tabs */
+
+/* BEGIN tables sorted */
+
+table.sorted thead {
+  background-color: black;
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+table.sorted tr.hidden {
+  visibility: collapse;
+  line-height: 0;
+}
+
+table.sorted tbody {
+  display: table;
+  width: 100%;
+}
+
+/* END tables sorted */
+
+/* BEGIN tables common */
+
+table {
+  width: 100%;
+}
+
+thead tr {
+  background-color: crimson;
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #222;
+}
+
+table a.button {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+th.button:hover,
+table a.button:hover {
+  background-color: orangered;
+}
+
+table button.invisible {
+  display: none;
+}
+
+/* END tables common */
+
+/* BEGIN hide common */
+
+.hide {
+  display: none;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* END hide common */
+
+/* BEGIN td resistances */
+
+td.resists.wk {
+  color: red;
+}
+
+td.resists.rs {
+  color: teal;
+}
+
+td.resists.nu {
+  color: darkgray;
+}
+
+td.resists.rp {
+  color: cyan;
+}
+
+td.resists.ab {
+  color: lime;
+}
+
+/* END td resistances */
