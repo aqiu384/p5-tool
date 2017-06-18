@@ -1,0 +1,15 @@
+{
+  "short_name": "P5 Tool",
+  "name": "Persona 5 Tool",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "437x247",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

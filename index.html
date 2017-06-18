@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/p5-tool/manifest.json"><link rel="shortcut icon" href="/p5-tool/favicon.ico"><title>Persona 5 Tool</title><script type="text/javascript">const l = window.location
+      const csrParam = 'csr'
+      if (l.search && l.search.includes(csrParam)) {
+        const pathParams = l.search.slice(l.search.indexOf(csrParam) + csrParam.length + 1)
+        const searchParams = l.search.slice(1, l.search.indexOf(csrParam) - 1)
+        const replacePath = (
+          (l.pathname.slice(-1) === '/' ? l.pathname.slice(0, -1) : l.pathname) +
+          pathParams + (searchParams ? '?' + searchParams : '') + l.hash
+        )
+        window.history.replaceState(null, null, replacePath)
+      }</script><link href="/p5-tool/static/css/main.85dc10ba.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="/p5-tool/static/js/main.b2ea7e16.js"></script></body></html>
