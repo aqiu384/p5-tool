@@ -4,16 +4,11 @@
         "inherits": "curse", 
         "lvl": 74, 
         "resists": {
-            "bless": "-", 
             "curse": "ab", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "ab", 
-            "ice": "-", 
             "nuke": "wk", 
             "phys": "ab", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Absorb Phys": 79, 
@@ -36,15 +31,8 @@
         "inherits": "elec", 
         "lvl": 3, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -70,14 +58,8 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rs", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Concentrate": 83, 
@@ -101,16 +83,8 @@
         "inherits": "almighty", 
         "lvl": 29, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Bufula": 0, 
@@ -133,16 +107,8 @@
         "inherits": "nuke", 
         "lvl": 43, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Abysmal Surge": 45, 
@@ -167,16 +133,9 @@
         "inherits": "ice", 
         "lvl": 10, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
             "gun": "wk", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Apt Pupil": 13, 
@@ -201,14 +160,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "rs"
         }, 
         "skills": {
             "Baisudi": 14, 
@@ -233,15 +185,7 @@
         "lvl": 37, 
         "resists": {
             "bless": "nu", 
-            "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "curse": "nu"
         }, 
         "skills": {
             "Dekunda": 40, 
@@ -265,15 +209,9 @@
         "inherits": "wind", 
         "lvl": 25, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -297,16 +235,8 @@
         "inherits": "ice", 
         "lvl": 11, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Bufu": 0, 
@@ -329,16 +259,8 @@
         "inherits": "nuke", 
         "lvl": 31, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Freila": 0, 
@@ -363,14 +285,10 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rp", 
-            "ice": "-", 
             "nuke": "wk", 
             "phys": "rp", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Abysmal Surge": 0, 
@@ -395,14 +313,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "wk"
         }, 
         "skills": {
             "Dazzler": 0, 
@@ -425,16 +336,9 @@
         "inherits": "almighty", 
         "lvl": 84, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Agneyastra": 87, 
@@ -459,15 +363,9 @@
         "lvl": 30, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
             "nuke": "nu", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Apt Pupil": 0, 
@@ -492,15 +390,9 @@
         "lvl": 42, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
             "nuke": "nu", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Apt Pupil": 0, 
@@ -526,14 +418,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Adverse Resolve": 7, 
@@ -555,16 +440,10 @@
         "inherits": "fire", 
         "lvl": 56, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Auto-Mataru": 57, 
@@ -588,16 +467,10 @@
         "inherits": "fire", 
         "lvl": 62, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Auto-Masuku": 63, 
@@ -621,16 +494,9 @@
         "inherits": "nuke", 
         "lvl": 76, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rp", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Atomic Flare": 0, 
@@ -654,15 +520,7 @@
         "inherits": "elec", 
         "lvl": 39, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -687,15 +545,8 @@
         "inherits": "fire", 
         "lvl": 82, 
         "resists": {
-            "bless": "-", 
             "curse": "wk", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -722,13 +573,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "ab"
         }, 
         "skills": {
@@ -755,14 +600,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rs"
         }, 
         "skills": {
             "Agidyne": 0, 
@@ -789,12 +627,7 @@
             "bless": "nu", 
             "curse": "wk", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -820,14 +653,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "ab", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "ab"
         }, 
         "skills": {
             "Concentrate": 86, 
@@ -852,16 +678,7 @@
         "inherits": "curse", 
         "lvl": 68, 
         "resists": {
-            "bless": "-", 
-            "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "curse": "nu"
         }, 
         "skills": {
             "Agidyne": 0, 
@@ -885,16 +702,11 @@
         "inherits": "ice", 
         "lvl": 37, 
         "resists": {
-            "bless": "-", 
             "curse": "rp", 
             "elec": "rs", 
             "fire": "wk", 
-            "gun": "-", 
             "ice": "rs", 
-            "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rs"
         }, 
         "skills": {
             "Bufula": 0, 
@@ -917,16 +729,9 @@
         "inherits": "phys", 
         "lvl": 9, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "rs", 
             "gun": "nu", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Cleave": 0, 
@@ -948,16 +753,8 @@
         "inherits": "wind", 
         "lvl": 4, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "wk"
         }, 
         "skills": {
             "Apt Pupil": 8, 
@@ -981,14 +778,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Deadly Fury": 68, 
@@ -1012,16 +803,10 @@
         "inherits": "almighty", 
         "lvl": 67, 
         "resists": {
-            "bless": "-", 
             "curse": "rp", 
-            "elec": "-", 
             "fire": "rp", 
-            "gun": "-", 
             "ice": "ab", 
-            "nuke": "nu", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "nu"
         }, 
         "skills": {
             "Diamond Dust": 72, 
@@ -1047,13 +832,10 @@
             "bless": "wk", 
             "curse": "nu", 
             "elec": "wk", 
-            "fire": "-", 
             "gun": "rs", 
             "ice": "rs", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Ambient Aid": 31, 
@@ -1079,14 +861,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Ambient Aid": 60, 
@@ -1110,16 +886,9 @@
         "inherits": "almighty", 
         "lvl": 49, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Auto-Mataru": 51, 
@@ -1143,16 +912,10 @@
         "inherits": "ice", 
         "lvl": 49, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
             "ice": "ab", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Bufudyne": 55, 
@@ -1176,16 +939,9 @@
         "inherits": "fire", 
         "lvl": 55, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rs"
         }, 
         "skills": {
             "Agidyne": 0, 
@@ -1213,11 +969,7 @@
             "elec": "nu", 
             "fire": "wk", 
             "gun": "rs", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Bloodbath": 0, 
@@ -1241,16 +993,10 @@
         "inherits": "psy", 
         "lvl": 86, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
             "nuke": "wk", 
             "phys": "rs", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Absorb Psy": 90, 
@@ -1275,15 +1021,7 @@
         "lvl": 28, 
         "resists": {
             "bless": "wk", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "ab", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "ab"
         }, 
         "skills": {
             "Curse Boost": 32, 
@@ -1308,15 +1046,8 @@
         "inherits": "healing", 
         "lvl": 26, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -1341,7 +1072,6 @@
         "inherits": "almighty", 
         "lvl": 50, 
         "resists": {
-            "bless": "-", 
             "curse": "rp", 
             "elec": "rp", 
             "fire": "rp", 
@@ -1376,14 +1106,9 @@
         "lvl": 67, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -1409,15 +1134,8 @@
         "lvl": 73, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rs"
         }, 
         "skills": {
             "Absorb Bless": 77, 
@@ -1443,14 +1161,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "rs"
         }, 
         "skills": {
             "Bless Boost": 44, 
@@ -1474,16 +1185,7 @@
         "inherits": "phys", 
         "lvl": 50, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rs"
         }, 
         "skills": {
             "Bad Beat": 0, 
@@ -1507,16 +1209,10 @@
         "inherits": "fire", 
         "lvl": 32, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "rp", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rs", 
-            "phys": "wk", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "wk"
         }, 
         "skills": {
             "Agilao": 0, 
@@ -1542,14 +1238,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "rp"
         }, 
         "skills": {
             "Abysmal Surge": 0, 
@@ -1575,14 +1264,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
-            "nuke": "rp", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rp"
         }, 
         "skills": {
             "Evade Curse": 73, 
@@ -1606,16 +1289,9 @@
         "inherits": "fire", 
         "lvl": 16, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
             "fire": "rs", 
-            "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "rs"
         }, 
         "skills": {
             "Double Fangs": 18, 
@@ -1641,7 +1317,6 @@
             "bless": "nu", 
             "curse": "nu", 
             "elec": "ab", 
-            "fire": "-", 
             "gun": "nu", 
             "ice": "ab", 
             "nuke": "ab", 
@@ -1672,15 +1347,9 @@
         "inherits": "ailment", 
         "lvl": 25, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
             "ice": "wk", 
             "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -1704,16 +1373,9 @@
         "inherits": "psy", 
         "lvl": 63, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Evade Psy": 68, 
@@ -1737,15 +1399,8 @@
         "inherits": "wind", 
         "lvl": 46, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -1770,16 +1425,8 @@
         "inherits": "phys", 
         "lvl": 76, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Ali Dance": 0, 
@@ -1804,15 +1451,7 @@
         "inherits": "wind", 
         "lvl": 23, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "ab"
         }, 
         "skills": {
@@ -1837,15 +1476,7 @@
         "lvl": 77, 
         "resists": {
             "bless": "ab", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Ali Dance": 79, 
@@ -1870,13 +1501,6 @@
         "inherits": "ailment", 
         "lvl": 53, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
             "psy": "wk", 
             "wind": "ab"
@@ -1904,14 +1528,7 @@
         "lvl": 52, 
         "resists": {
             "bless": "rp", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -1936,16 +1553,9 @@
         "inherits": "ice", 
         "lvl": 7, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Bufu": 0, 
@@ -1970,14 +1580,9 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
             "gun": "rp", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rp", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rp"
         }, 
         "skills": {
             "Foul Breath": 46, 
@@ -2001,15 +1606,8 @@
         "lvl": 64, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Deathbound": 65, 
@@ -2033,13 +1631,6 @@
         "lvl": 40, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "rs", 
             "wind": "wk"
         }, 
@@ -2068,14 +1659,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "rs"
         }, 
         "skills": {
             "Charge": 48, 
@@ -2100,14 +1684,7 @@
         "lvl": 39, 
         "resists": {
             "bless": "wk", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "rp", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -2133,15 +1710,9 @@
         "inherits": "healing", 
         "lvl": 16, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -2173,8 +1744,7 @@
             "ice": "rp", 
             "nuke": "rp", 
             "phys": "rs", 
-            "psy": "rp", 
-            "wind": "-"
+            "psy": "rp"
         }, 
         "skills": {
             "Auto-Maraku": 0, 
@@ -2200,15 +1770,8 @@
         "lvl": 49, 
         "resists": {
             "bless": "rp", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "wk"
         }, 
         "skills": {
             "Diarama": 0, 
@@ -2232,16 +1795,9 @@
         "inherits": "fire", 
         "lvl": 9, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "rp", 
             "gun": "wk", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Agi": 0, 
@@ -2265,15 +1821,8 @@
         "lvl": 5, 
         "resists": {
             "bless": "wk", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "wk"
         }, 
         "skills": {
             "Dodge Curse": 9, 
@@ -2295,15 +1844,8 @@
         "inherits": "fire", 
         "lvl": 14, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -2330,13 +1872,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -2360,15 +1897,7 @@
         "inherits": "healing", 
         "lvl": 85, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -2395,14 +1924,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Agilao": 0, 
@@ -2426,15 +1948,8 @@
         "inherits": "elec", 
         "lvl": 20, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -2459,15 +1974,8 @@
         "inherits": "elec", 
         "lvl": 23, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -2492,16 +2000,8 @@
         "inherits": "ice", 
         "lvl": 11, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "nu"
         }, 
         "skills": {
             "Baisudi": 0, 
@@ -2524,15 +2024,9 @@
         "inherits": "fire", 
         "lvl": 2, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
             "gun": "wk", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -2555,14 +2049,6 @@
         "inherits": "wind", 
         "lvl": 32, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "wk", 
             "wind": "ab"
         }, 
@@ -2590,14 +2076,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Adverse Resolve": 31, 
@@ -2623,13 +2102,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -2656,14 +2129,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "wk"
         }, 
         "skills": {
             "Amrita Shower": 27, 
@@ -2687,16 +2153,9 @@
         "inherits": "almighty", 
         "lvl": 36, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "nu", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Forget Boost": 37, 
@@ -2720,16 +2179,9 @@
         "inherits": "fire", 
         "lvl": 77, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rp", 
-            "wind": "-"
+            "psy": "rp"
         }, 
         "skills": {
             "Absorb Nuke": 82, 
@@ -2753,16 +2205,8 @@
         "inherits": "wind", 
         "lvl": 6, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Garu": 0, 
@@ -2785,14 +2229,7 @@
         "lvl": 40, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -2816,16 +2253,9 @@
         "inherits": "phys", 
         "lvl": 25, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Bad Beat": 30, 
@@ -2850,15 +2280,7 @@
         "lvl": 61, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Auto-Mataru": 64, 
@@ -2882,16 +2304,8 @@
         "inherits": "ailment", 
         "lvl": 11, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Evil Touch": 13, 
@@ -2921,7 +2335,6 @@
             "fire": "rs", 
             "gun": "rs", 
             "ice": "rs", 
-            "nuke": "-", 
             "phys": "rs", 
             "psy": "rs", 
             "wind": "rs"
@@ -2950,15 +2363,9 @@
         "lvl": 76, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
             "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "nu", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Concentrate": 79, 
@@ -2983,14 +2390,7 @@
         "lvl": 11, 
         "resists": {
             "bless": "wk", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -3014,15 +2414,9 @@
         "inherits": "ice", 
         "lvl": 9, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
             "gun": "rs", 
             "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -3047,15 +2441,8 @@
         "lvl": 49, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Assault Dive": 0, 
@@ -3080,16 +2467,9 @@
         "inherits": "ailment", 
         "lvl": 42, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Dekaja": 45, 
@@ -3115,13 +2495,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -3146,15 +2520,7 @@
         "lvl": 42, 
         "resists": {
             "bless": "rp", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Amrita Shower": 47, 
@@ -3178,15 +2544,7 @@
         "inherits": "healing", 
         "lvl": 14, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -3211,15 +2569,8 @@
         "inherits": "ice", 
         "lvl": 34, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -3245,15 +2596,8 @@
         "lvl": 69, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Amrita Shower": 72, 
@@ -3277,16 +2621,10 @@
         "inherits": "fire", 
         "lvl": 26, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Agilao": 0, 
@@ -3310,14 +2648,7 @@
         "inherits": "almighty", 
         "lvl": 19, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "rs", 
             "wind": "rs"
         }, 
@@ -3344,14 +2675,10 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Life Drain": 0, 
@@ -3376,13 +2703,8 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "wk", 
             "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -3407,16 +2729,9 @@
         "inherits": "almighty", 
         "lvl": 60, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "rp", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rp"
         }, 
         "skills": {
             "Mabufudyne": 0, 
@@ -3440,16 +2755,7 @@
         "inherits": "almighty", 
         "lvl": 93, 
         "resists": {
-            "bless": "wk", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "bless": "wk"
         }, 
         "skills": {
             "Absorb Phys": 99, 
@@ -3474,16 +2780,10 @@
         "inherits": "fire", 
         "lvl": 85, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
             "ice": "wk", 
             "nuke": "nu", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Agidyne": 0, 
@@ -3510,14 +2810,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Attack Master": 48, 
@@ -3543,14 +2837,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Bloodbath": 50, 
@@ -3575,14 +2863,8 @@
         "lvl": 15, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -3607,16 +2889,8 @@
         "inherits": "elec", 
         "lvl": 3, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "wk"
         }, 
         "skills": {
             "Energy Drop": 0, 
@@ -3640,14 +2914,9 @@
         "resists": {
             "bless": "rs", 
             "curse": "rp", 
-            "elec": "-", 
             "fire": "ab", 
             "gun": "nu", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Charge": 74, 
@@ -3671,15 +2940,7 @@
         "inherits": "psy", 
         "lvl": 19, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -3705,12 +2966,6 @@
         "resists": {
             "bless": "ab", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "rs", 
             "wind": "wk"
         }, 
@@ -3740,10 +2995,8 @@
             "curse": "wk", 
             "elec": "rs", 
             "fire": "rs", 
-            "gun": "-", 
             "ice": "rs", 
             "nuke": "rs", 
-            "phys": "-", 
             "psy": "rs", 
             "wind": "rs"
         }, 
@@ -3774,10 +3027,8 @@
             "curse": "wk", 
             "elec": "rs", 
             "fire": "rs", 
-            "gun": "-", 
             "ice": "rs", 
             "nuke": "rs", 
-            "phys": "-", 
             "psy": "rs", 
             "wind": "rs"
         }, 
@@ -3804,14 +3055,9 @@
         "inherits": "bless", 
         "lvl": 89, 
         "resists": {
-            "bless": "-", 
             "curse": "wk", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "ab", 
-            "phys": "-", 
             "psy": "ab", 
             "wind": "rp"
         }, 
@@ -3840,14 +3086,7 @@
         "resists": {
             "bless": "rp", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "rs"
         }, 
         "skills": {
             "Cosmic Flare": 92, 
@@ -3872,15 +3111,8 @@
         "lvl": 33, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "nu"
         }, 
         "skills": {
             "Bless Boost": 36, 
@@ -3904,16 +3136,10 @@
         "inherits": "nuke", 
         "lvl": 39, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "nu", 
             "phys": "rs", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Freidyne": 45, 
@@ -3936,15 +3162,7 @@
         "inherits": "ailment", 
         "lvl": 9, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -3968,14 +3186,10 @@
         "inherits": "psy", 
         "lvl": 60, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
             "elec": "rs", 
             "fire": "rp", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "ab", 
             "wind": "rs"
         }, 
@@ -4001,15 +3215,9 @@
         "inherits": "ailment", 
         "lvl": 72, 
         "resists": {
-            "bless": "-", 
             "curse": "rp", 
             "elec": "ab", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -4035,14 +3243,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "rp"
         }, 
         "skills": {
             "Debilitate": 85, 
@@ -4066,16 +3267,9 @@
         "inherits": "elec", 
         "lvl": 33, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Ambient Aid": 36, 
@@ -4098,15 +3292,7 @@
         "inherits": "elec", 
         "lvl": 24, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -4132,14 +3318,8 @@
         "lvl": 50, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
             "elec": "nu", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -4166,14 +3346,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Curse Amp": 65, 
@@ -4200,12 +3373,7 @@
             "bless": "nu", 
             "curse": "rs", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -4230,16 +3398,8 @@
         "inherits": "ailment", 
         "lvl": 17, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Dodge Elec": 22, 
@@ -4265,14 +3425,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "wk"
         }, 
         "skills": {
             "Baisudi": 0, 
@@ -4295,15 +3448,7 @@
         "inherits": "almighty", 
         "lvl": 52, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "ab"
         }, 
         "skills": {
@@ -4328,16 +3473,9 @@
         "inherits": "curse", 
         "lvl": 20, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Assault Dive": 25, 
@@ -4361,16 +3499,8 @@
         "inherits": "phys", 
         "lvl": 8, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Dekaja": 12, 
@@ -4392,16 +3522,9 @@
         "inherits": "elec", 
         "lvl": 66, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Brain Jack": 0, 
@@ -4429,12 +3552,6 @@
             "bless": "rp", 
             "curse": "rp", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "ab"
         }, 
         "skills": {
@@ -4459,14 +3576,8 @@
         "inherits": "psy", 
         "lvl": 44, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "-", 
             "psy": "nu", 
             "wind": "wk"
         }, 
@@ -4494,14 +3605,8 @@
         "resists": {
             "bless": "rp", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Agneyastra": 81, 
@@ -4525,16 +3630,8 @@
         "inherits": "phys", 
         "lvl": 19, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Counter": 0, 
@@ -4559,14 +3656,8 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "wk"
         }, 
         "skills": {
             "Agi": 13, 
@@ -4591,7 +3682,6 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "nu", 
             "gun": "nu", 
             "ice": "nu", 
@@ -4625,13 +3715,6 @@
         "resists": {
             "bless": "wk", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -4657,14 +3740,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "wk", 
-            "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "wk"
         }, 
         "skills": {
             "Agilao": 0, 
@@ -4690,14 +3766,7 @@
         "resists": {
             "bless": "rs", 
             "curse": "wk", 
-            "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "wk"
         }, 
         "skills": {
             "Agidyne": 32, 
@@ -4721,16 +3790,9 @@
         "inherits": "fire", 
         "lvl": 21, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rs"
         }, 
         "skills": {
             "Agilao": 0, 
@@ -4755,14 +3817,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rs"
         }, 
         "skills": {
             "Counterstrike": 0, 
@@ -4786,13 +3841,6 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -4819,14 +3867,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rp", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Diarahan": 58, 
@@ -4852,13 +3894,6 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -4883,15 +3918,8 @@
         "inherits": "nuke", 
         "lvl": 22, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -4917,13 +3945,7 @@
             "bless": "wk", 
             "curse": "nu", 
             "elec": "rs", 
-            "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "wk"
         }, 
         "skills": {
             "Abysmal Surge": 32, 
@@ -4950,13 +3972,8 @@
             "bless": "rs", 
             "curse": "wk", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Dia": 0, 
@@ -4980,13 +3997,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -5013,14 +4024,7 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rs"
         }, 
         "skills": {
             "Bless Boost": 34, 
@@ -5043,15 +4047,8 @@
         "inherits": "almighty", 
         "lvl": 43, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -5109,14 +4106,7 @@
         "inherits": "wind", 
         "lvl": 63, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
             "psy": "wk", 
             "wind": "rs"
         }, 
@@ -5142,16 +4132,7 @@
         "inherits": "elec", 
         "lvl": 55, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "nu"
         }, 
         "skills": {
             "Elec Break": 0, 
@@ -5177,13 +4158,8 @@
         "resists": {
             "bless": "wk", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -5213,11 +4189,7 @@
             "elec": "wk", 
             "fire": "nu", 
             "gun": "rp", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rp", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rp"
         }, 
         "skills": {
             "Bloodbath": 0, 
@@ -5241,15 +4213,8 @@
         "lvl": 78, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "nu", 
-            "wind": "-"
+            "psy": "nu"
         }, 
         "skills": {
             "Adverse Resolve": 82, 
@@ -5274,15 +4239,7 @@
         "lvl": 41, 
         "resists": {
             "bless": "wk", 
-            "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "curse": "nu"
         }, 
         "skills": {
             "Mapsio": 0, 
@@ -5340,16 +4297,8 @@
         "inherits": "healing", 
         "lvl": 6, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Bufu": 0, 
@@ -5375,13 +4324,8 @@
             "bless": "rp", 
             "curse": "nu", 
             "elec": "rs", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Amrita Shower": 0, 
@@ -5404,15 +4348,7 @@
         "inherits": "wind", 
         "lvl": 24, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -5437,16 +4373,9 @@
         "inherits": "healing", 
         "lvl": 50, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Dekaja": 52, 
@@ -5470,16 +4399,9 @@
         "inherits": "ice", 
         "lvl": 92, 
         "resists": {
-            "bless": "-", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "rp", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rp"
         }, 
         "skills": {
             "Absorb Ice": 98, 
@@ -5538,16 +4460,8 @@
         "inherits": "wind", 
         "lvl": 45, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "rp", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rp"
         }, 
         "skills": {
             "Attack Master": 49, 
@@ -5571,16 +4485,8 @@
         "inherits": "ice", 
         "lvl": 62, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rs", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Amrita Drop": 66, 
@@ -5604,16 +4510,8 @@
         "inherits": "phys", 
         "lvl": 28, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rs", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Charge": 34, 
@@ -5638,13 +4536,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rs", 
-            "elec": "-", 
             "fire": "rp", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "nu"
         }, 
         "skills": {
@@ -5670,14 +4562,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Dodge Curse": 20, 
@@ -5700,16 +4586,10 @@
         "inherits": "psy", 
         "lvl": 21, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
             "gun": "nu", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "nu", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "nu"
         }, 
         "skills": {
             "Dekaja": 24, 
@@ -5736,13 +4616,9 @@
             "bless": "nu", 
             "curse": "nu", 
             "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "ab", 
-            "wind": "-"
+            "psy": "ab"
         }, 
         "skills": {
             "Auto-Mataru": 87, 
@@ -5766,16 +4642,9 @@
         "inherits": "phys", 
         "lvl": 69, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rs", 
             "nuke": "wk", 
-            "phys": "nu", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "nu"
         }, 
         "skills": {
             "Auto-Mataru": 72, 
@@ -5798,16 +4667,9 @@
         "inherits": "healing", 
         "lvl": 6, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "wk", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "rs", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rs"
         }, 
         "skills": {
             "Bufu": 0, 
@@ -5829,16 +4691,8 @@
         "inherits": "ice", 
         "lvl": 55, 
         "resists": {
-            "bless": "-", 
             "curse": "nu", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "rp", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "rp"
         }, 
         "skills": {
             "Bufudyne": 58, 
@@ -5862,15 +4716,8 @@
         "inherits": "curse", 
         "lvl": 10, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {
@@ -5895,14 +4742,7 @@
         "resists": {
             "bless": "rp", 
             "curse": "wk", 
-            "elec": "ab", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "elec": "ab"
         }, 
         "skills": {
             "Amrita Shower": 84, 
@@ -5962,14 +4802,8 @@
         "resists": {
             "bless": "wk", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "rs", 
-            "gun": "wk", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "wk"
         }, 
         "skills": {
             "Agi": 8, 
@@ -5992,15 +4826,8 @@
         "inherits": "wind", 
         "lvl": 17, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "wk", 
             "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rp"
         }, 
         "skills": {
@@ -6025,16 +4852,9 @@
         "inherits": "ice", 
         "lvl": 24, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
             "elec": "rs", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "ab", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Bufula": 0, 
@@ -6058,16 +4878,8 @@
         "inherits": "fire", 
         "lvl": 59, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Agidyne": 0, 
@@ -6090,16 +4902,9 @@
         "inherits": "nuke", 
         "lvl": 19, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
             "ice": "wk", 
-            "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rs"
         }, 
         "skills": {
             "Frei": 0, 
@@ -6123,16 +4928,9 @@
         "inherits": "elec", 
         "lvl": 29, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
             "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Assault Dive": 0, 
@@ -6157,14 +4955,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Curse Amp": 66, 
@@ -6190,14 +4981,7 @@
         "resists": {
             "bless": "wk", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Adverse Resolve": 73, 
@@ -6224,13 +5008,8 @@
             "bless": "rs", 
             "curse": "rs", 
             "elec": "ab", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Attack Master": 70, 
@@ -6255,15 +5034,8 @@
         "lvl": 36, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "nu", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Freila": 0, 
@@ -6289,14 +5061,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
             "fire": "ab", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "rs", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "rs"
         }, 
         "skills": {
             "Auto-Maraku": 76, 
@@ -6322,14 +5088,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "rs", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Freidyne": 0, 
@@ -6355,13 +5115,7 @@
             "bless": "rp", 
             "curse": "nu", 
             "elec": "rp", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Abysmal Surge": 0, 
@@ -6387,14 +5141,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Absorb Curse": 0, 
@@ -6420,14 +5168,8 @@
         "resists": {
             "bless": "rs", 
             "curse": "rp", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
             "nuke": "wk", 
-            "phys": "rs", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "rs"
         }, 
         "skills": {
             "Absorb Curse": 0, 
@@ -6453,14 +5195,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "rs", 
-            "wind": "-"
+            "psy": "rs"
         }, 
         "skills": {
             "Assault Dive": 0, 
@@ -6485,15 +5221,8 @@
         "lvl": 81, 
         "resists": {
             "bless": "rp", 
-            "curse": "-", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "ab", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "ab"
         }, 
         "skills": {
             "Angelic Grace": 85, 
@@ -6518,15 +5247,7 @@
         "lvl": 44, 
         "resists": {
             "bless": "nu", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "rs", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "gun": "rs"
         }, 
         "skills": {
             "Attack Master": 45, 
@@ -6549,16 +5270,9 @@
         "inherits": "ailment", 
         "lvl": 68, 
         "resists": {
-            "bless": "-", 
             "curse": "wk", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "nu", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "nu"
         }, 
         "skills": {
             "Brain Jack": 0, 
@@ -6584,14 +5298,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "nu", 
-            "elec": "-", 
             "fire": "wk", 
-            "gun": "-", 
-            "ice": "ab", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "ab"
         }, 
         "skills": {
             "Ali Dance": 0, 
@@ -6618,14 +5326,8 @@
         "resists": {
             "bless": "nu", 
             "curse": "rp", 
-            "elec": "-", 
             "fire": "nu", 
-            "gun": "-", 
-            "ice": "wk", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "ice": "wk"
         }, 
         "skills": {
             "Ailment Boost": 45, 
@@ -6650,16 +5352,8 @@
         "inherits": "ice", 
         "lvl": 20, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "rs", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Attack Master": 23, 
@@ -6682,16 +5376,9 @@
         "inherits": "ice", 
         "lvl": 64, 
         "resists": {
-            "bless": "-", 
             "curse": "rs", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
             "ice": "nu", 
-            "nuke": "wk", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "nuke": "wk"
         }, 
         "skills": {
             "Adverse Resolve": 67, 
@@ -6716,13 +5403,6 @@
         "resists": {
             "bless": "nu", 
             "curse": "wk", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
             "wind": "rs"
         }, 
         "skills": {
@@ -6748,15 +5428,9 @@
         "lvl": 79, 
         "resists": {
             "bless": "rp", 
-            "curse": "-", 
             "elec": "rp", 
             "fire": "rs", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "nu", 
-            "psy": "-", 
-            "wind": "-"
+            "phys": "nu"
         }, 
         "skills": {
             "Brave Blade": 0, 
@@ -6781,15 +5455,8 @@
         "lvl": 42, 
         "resists": {
             "bless": "rs", 
-            "curse": "-", 
             "elec": "nu", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "wk", 
-            "wind": "-"
+            "psy": "wk"
         }, 
         "skills": {
             "Brain Jack": 0, 
@@ -6816,13 +5483,7 @@
             "bless": "nu", 
             "curse": "nu", 
             "elec": "wk", 
-            "fire": "rp", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
-            "phys": "-", 
-            "psy": "-", 
-            "wind": "-"
+            "fire": "rp"
         }, 
         "skills": {
             "Abysmal Surge": 0, 
@@ -6846,15 +5507,7 @@
         "inherits": "elec", 
         "lvl": 31, 
         "resists": {
-            "bless": "-", 
-            "curse": "-", 
-            "elec": "-", 
-            "fire": "-", 
-            "gun": "-", 
-            "ice": "-", 
-            "nuke": "-", 
             "phys": "rs", 
-            "psy": "-", 
             "wind": "wk"
         }, 
         "skills": {

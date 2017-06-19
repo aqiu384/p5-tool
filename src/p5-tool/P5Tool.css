@@ -110,6 +110,27 @@ table button.invisible {
 
 /* END hide common */
 
+/* BEGIN list commas */
+
+ul.commas {
+  padding: 0;
+  list-style: none;
+}
+
+ul.commas li {
+  display: inline;
+}
+
+ul.commas li:after {
+  content: ", ";
+}
+
+ul.commas li:last-child:after {
+  content: "";
+}
+
+/* END list commas */
+
 /* BEGIN td resistances */
 
 td.resists.wk {

@@ -16,11 +16,11 @@ const Elements = [
 ]
 
 const ResistanceOrder = [
-  'ab', 'rp', 'nu', 'rs', '-', 'wk'
+  'ab', 'rp', 'nu', 'rs', undefined, 'wk'
 ].reduce((acc, val, ind) => { acc[val] = ind; return acc }, {})
 
 const ResistanceTd = ({ val }) => (
-  <td className={'resists ' + (val === '-' ? 'no' : val)}>{val}</td>
+  <td className={'resists ' + (val === undefined ? 'no' : val)}>{val}</td>
 )
 
 const SimpleTh = (val) => (val)
@@ -89,7 +89,7 @@ const PersonaLinkTd = ({ url }) => (
 
 const SkillLearnedByTd = ({ url }) => (
   ({ val }) => (
-    <td><ul>{Object.keys(val).map( name => {
+    <td><ul className="commas">{Object.keys(val).map( name => {
       const lvl = val[name] !== 0 ? ` (${val[name]})` : ''
       return <li key={name}><Link to={`${url}/${name}`}>{name}{lvl}</Link></li> 
     } )}</ul></td>
@@ -98,7 +98,7 @@ const SkillLearnedByTd = ({ url }) => (
 
 const PersonaLinkListTd = ({ url }) => (
   ({ val }) => (
-    <td><ul>{val.map( name => 
+    <td><ul className="commas">{val.filter( name => name !== '' ).map( name => 
       <li key={name}><Link to={`${url}/${name}`}>{name}</Link></li> )}
     </ul></td>
   )

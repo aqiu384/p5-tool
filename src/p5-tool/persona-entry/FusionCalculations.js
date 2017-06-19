@@ -3,14 +3,16 @@ import FusionChart from '../data/FusionChart'
 import SpecialRecipes from '../data/SpecialRecipes'
 import ElementMods from '../data/ElementModifiers'
 
-const NormalFusionExceptions = {
-  Rangda: 'Barong = Moloch',
-  Barong: 'Rangda = Moloch',
-  Belial: 'Nebiros = Baphomet',
-  Nebiros: 'Belial = Baphomet',
-  Shiva: 'Parvati = Attis',
-  Parvati: 'Shiva = Attis'
-}
+const NormalFusionExceptions = Object.keys(SpecialRecipes).reduce( (acc, nameR) => {
+  const recipe = SpecialRecipes[nameR]
+  if (recipe.length === 2) {
+    const [ ing1, ing2 ] = recipe
+    acc[ing1] = ing2
+    acc[ing2] = ing1
+  }
+
+  return acc
+}, {} )
 
 const ArcanaOrder = [
   'Fool', 'Magician', 'Priestess', 'Empress',
@@ -55,23 +57,17 @@ function calculateForwardNormalFusions(name1, ingredients, results) {
         const indexR = lvlsR.reduce( (acc, lvlR) => (lvl1 + lvl2 <= lvlR ? acc : acc + 1), 0 )
         const lvlR = lvlsR[indexR === lvlsR.length ? lvlsR.length - 1 : indexR] / 2
 
-        acc.push(
-          ReversePersonaLookup[arcana2][lvl2] + ' = ' + 
-          ReversePersonaLookup[arcanaR][lvlR]
-        )
+        acc[ReversePersonaLookup[arcana2][lvl2]] = ReversePersonaLookup[arcanaR][lvlR]
 
         return acc
       }, acc )
-    }, [] )
+    }, {} )
 
   if (NormalFusionExceptions.hasOwnProperty(name1)) {
-    const ind = recipes.indexOf(NormalFusionExceptions[name1])
-    if (ind !== -1) {
-      recipes.splice(ind, 1)
-    }
+    delete recipes[NormalFusionExceptions[name1]]
   }
 
-  return recipes
+  return Object.keys(recipes).map( lvl2 => lvl2 + ' = ' + recipes[lvl2] )
 }
 
 function calculateForwardSameArcanaFusions(name1, ingredients, results) {
@@ -85,19 +81,22 @@ function calculateForwardSameArcanaFusions(name1, ingredients, results) {
   const lvlsR = results[arcana1]
     .filter( lvlR => lvlR !== lvl1 )
 
-  return lvls2.reduce( (acc, lvl2) => {
+  const recipes = lvls2.reduce( (acc, lvl2) => {
     const tindR = lvlsR.reduce( (acc, lvlR) => (lvl1 + lvl2 >= 2 * lvlR ? acc + 1 : acc), -1 )
     const lvlR = lvlsR[lvlsR[tindR] === lvl2 ? tindR - 1 : tindR]
 
     if (lvlR) { 
-      acc.push(
-        ReversePersonaLookup[arcana1][lvl2] + ' = ' + 
-        ReversePersonaLookup[arcana1][lvlR]
-      )
+      acc[ReversePersonaLookup[arcana1][lvl2]] = ReversePersonaLookup[arcana1][lvlR]
     }
 
     return acc
-  }, [] )
+  }, {} )
+
+  if (NormalFusionExceptions.hasOwnProperty(name1)) {
+    delete recipes[NormalFusionExceptions[name1]]
+  }
+
+  return Object.keys(recipes).map( lvl2 => lvl2 + ' = ' + recipes[lvl2] )
 }
 
 function calculateForwardElementFusions(name1, results) {
@@ -141,6 +140,10 @@ function calculateNormalElementFusions(name1, results) {
 
   return Object.keys(results).reduce( (acc, arcana2) => {
     const mod1 = ElementMods[arcana2][name1]
+    if (mod1 === undefined) {
+      return acc
+    }
+
     const lvls1 = results[arcana2]
     const lvls2 = mod1 < 0 ? lvls1.slice(-1 * mod1) : lvls1.slice(0, -1 * mod1)
     const lvlsR = mod1 < 0 ? lvls1.slice(0, mod1) : lvls1.slice(mod1)
@@ -162,7 +165,11 @@ function calculateSpecialElementFusions(name1, results) {
     .filter( (name2) => !isTreasureDemon(name2) )
     .reduce( (acc, name2) => {
       const { arcana: arc2, lvl: lvl2 } = PersonaData[name2]
+
       const mod1 = ElementMods[arc2][name1]
+      if (mod1 === undefined) {
+        return acc
+      }
 
       const lvlsR = results[arc2]
       const indR = mod1 + lvlsR.reduce( (acc, lvlR) => (lvl2 >= lvlR ? acc + 1 : acc), 0)
