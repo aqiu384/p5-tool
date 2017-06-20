@@ -16,6 +16,10 @@ div.compendium {
   width: 1000px;
 }
 
+div.center {
+  text-align: center;
+}
+
 /* END compendium common */
 
 /* BEGIN borders special */
@@ -133,28 +137,11 @@ ul.commas li:last-child:after {
 
 /* BEGIN td resistances */
 
-td.resists.wk {
-  color: red;
-}
-
-td.resists.rs {
-  color: lightseagreen;
-}
-
-td.resists.nu {
-  color: lightgray;
-}
-
-td.resists.rp {
-  color: cyan;
-}
-
-td.resists.ab {
-  color: lime;
-}
-
-td.resists.no {
-  color: black;
-}
+td.resists.wk { color: red; }
+td.resists.no { color: transparent; }
+td.resists.rs { color: lightseagreen; }
+td.resists.nu { color: lightgray; }
+td.resists.rp { color: cyan; }
+td.resists.ab { color: lime; }
 
 /* END td resistances */

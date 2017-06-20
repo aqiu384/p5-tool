@@ -5,6 +5,7 @@ import PersonaTable from './PersonaTable'
 import SkillTable from './SkillTable'
 import PersonaEntry from './persona-entry/PersonaEntry'
 import DlcTable from './DlcTable'
+import Footer from './Footer'
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import DlcPersonas from './data/DlcPersonas'
@@ -71,6 +72,7 @@ class P5Tool extends React.PureComponent {
                 personasUrl={personasUrl} match={match} hasDlc={hasDlc}/> 
               }/>
             }
+            <Footer/>
           </div>
         ) }/>
       </Switch>

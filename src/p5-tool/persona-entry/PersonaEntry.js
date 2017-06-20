@@ -79,10 +79,15 @@ function BaseStatsTable({ title, stats }) {
 }
 
 function ResistancesTable({ resists }) {
+  const data = Resistances.colOrder
+    .reduce( (acc, element) => {
+       acc[element] = resists[element] ? resists[element] : 'no'
+       return acc
+    }, {} )
   return (
     <Table {...{
       columns: Resistances,
-      data: [ { key: 0, ...resists } ],
+      data: [ { key: 0, ...data } ],
       headers: [ 'Resistances' ]
     }} />
   )

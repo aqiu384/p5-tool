@@ -32,8 +32,12 @@ class PersonaTable extends React.PureComponent {
       const { lvl, arcana, inherits, stats, resists } = personas[name]
       const row = {
         key: name, arcana: { arcana, lvl },
-        lvl, name, inherits, ...stats, ...resists
+        lvl, name, inherits, ...stats
       }
+
+      Resistances.colOrder.reduce( (acc, element) => {
+        acc[element] = resists[element] ? resists[element] : 'no'; return acc
+      }, row)
 
       if (SpecialRecipes.hasOwnProperty(name) && SpecialRecipes[name].length === 0) {
         row.rowClass = 'persona treasure'

@@ -1,3 +1,4 @@
+import ArcanaOrder from '../data/ArcanaOrder'
 import PersonaData from '../data/PersonaData'
 import FusionChart from '../data/FusionChart'
 import SpecialRecipes from '../data/SpecialRecipes'
@@ -13,14 +14,6 @@ const NormalFusionExceptions = Object.keys(SpecialRecipes).reduce( (acc, nameR) 
 
   return acc
 }, {} )
-
-const ArcanaOrder = [
-  'Fool', 'Magician', 'Priestess', 'Empress',
-  'Emperor', 'Hierophant', 'Lovers', 'Chariot',
-  'Justice', 'Hermit', 'Fortune', 'Strength',
-  'Hanged Man', 'Death', 'Temperance', 'Devil',
-  'Tower', 'Star', 'Moon', 'Sun', 'Judgement'
-]
 
 const isTreasureDemon = (name) => {
   return SpecialRecipes.hasOwnProperty(name) && SpecialRecipes[name].length === 0
@@ -313,6 +306,22 @@ const NormalResults = ArcanaOrder.reduce(
   }, ArcanaOrder.reduce( (acc, arcana) => { acc[arcana] = []; return acc }, {} ) )
 )
 
+function generateIngredients(excludedNames) {
+  return excludedNames.reduce( (acc, name) => {
+    const { arcana, lvl } = PersonaData[name]
+    acc[arcana] = acc[arcana].filter( lvlI => lvlI !== lvl )
+    return acc
+  }, Object.assign({}, NormalIngredients) )
+}
+
+function generateResults(excludedNames) {
+  return excludedNames.reduce( (acc, name) => {
+    const { arcana, lvl } = PersonaData[name]
+    acc[arcana] = acc[arcana].filter( lvlI => lvlI !== lvl )
+    return acc
+  }, Object.assign({}, NormalResults) )
+}
+
 function calculateReverseFusions(name, excludedNames) {
   if (excludedNames.indexOf(name) !== -1) {
     return { type: 'notOwned', recipes: [] }
@@ -325,17 +334,8 @@ function calculateReverseFusions(name, excludedNames) {
       { type: 'special', recipes: [ recipe ] }
   }
 
-  const ingredients = excludedNames.reduce( (acc, name) => {
-    const { arcana, lvl } = PersonaData[name]
-    acc[arcana] = acc[arcana].filter( lvlI => lvlI !== lvl )
-    return acc
-  }, Object.assign({}, NormalIngredients) )
-
-  const results = excludedNames.reduce( (acc, name) => {
-    const { arcana, lvl } = PersonaData[name]
-    acc[arcana] = acc[arcana].filter( lvlI => lvlI !== lvl )
-    return acc
-  }, Object.assign({}, NormalResults) )
+  const ingredients = generateIngredients(excludedNames)
+  const results = generateResults(excludedNames)
 
   return { type: 'normal', recipes: [].concat(
     calculateNormalFusions(name, ingredients, results),
@@ -344,14 +344,17 @@ function calculateReverseFusions(name, excludedNames) {
   )}
 }
 
-function calculateForwardFusions(name) {
+function calculateForwardFusions(name, excludedNames) {
+  const ingredients = generateIngredients(excludedNames)
+  const results = generateResults(excludedNames)
+
   return [].concat(
-    calculateForwardNormalFusions(name, NormalIngredients, NormalResults),
-    calculateForwardSameArcanaFusions(name, NormalIngredients, NormalResults),
-    calculateForwardElementFusions(name, NormalResults),
-    calculateDoubleElementFusions(name, NormalResults),
-    calculateNormalElementFusions(name, NormalResults),
-    calculateSpecialElementFusions(name, NormalResults)
+    calculateForwardNormalFusions(name, ingredients, results),
+    calculateForwardSameArcanaFusions(name, ingredients, results),
+    calculateForwardElementFusions(name, results),
+    calculateDoubleElementFusions(name, results),
+    calculateNormalElementFusions(name, results),
+    calculateSpecialElementFusions(name, results)
   )
 }
 

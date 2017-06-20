@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ArcanaOrderList from './data/ArcanaOrder'
 import ElementIcons from './img/elements/ElementIcons'
 
 const CompareKeys = (keyOrder) => (key) => (a, b) => keyOrder[a[key]] - keyOrder[b[key]]
@@ -16,11 +17,11 @@ const Elements = [
 ]
 
 const ResistanceOrder = [
-  'ab', 'rp', 'nu', 'rs', undefined, 'wk'
+  'ab', 'rp', 'nu', 'rs', 'no', 'wk'
 ].reduce((acc, val, ind) => { acc[val] = ind; return acc }, {})
 
 const ResistanceTd = ({ val }) => (
-  <td className={'resists ' + (val === undefined ? 'no' : val)}>{val}</td>
+  <td className={'resists ' + val}>{val}</td>
 )
 
 const SimpleTh = (val) => (val)
@@ -49,7 +50,7 @@ const ElementIconTd = ({ val }) => (
 )
 
 const SkillCostTd = ({ val }) => (
-  <td>{val >= 100 ? val / 100 + ' SP' : (val > 0 ? val + '% HP' : '')}</td>
+  <td>{val >= 100 ? val / 100 + ' SP' : (val > 0 ? val + '% HP' : 'Auto')}</td>
 )
 
 const SimpleTd = ({ val }) => (
@@ -147,14 +148,8 @@ const BaseStats = {
 
 // Compendium Entry
 
-const ArcanaOrder = [
-  'Fool', 'Magician', 'Priestess', 'Empress',
-  'Emperor', 'Hierophant', 'Lovers', 'Chariot',
-  'Justice', 'Hermit', 'Fortune', 'Strength',
-  'Hanged Man', 'Death', 'Temperance', 'Devil',
-  'Tower', 'Star', 'Moon', 'Sun',
-  'Judgement', 'World'
-].reduce((acc, val, ind) => { acc[val] = ind; return acc }, {})
+const ArcanaOrder = ArcanaOrderList
+  .reduce((acc, val, ind) => { acc[val] = ind; return acc }, {})
 
 const compEntry = ({ url }) => ({
   colOrder: [ 'arcana', 'lvl', 'name' ],

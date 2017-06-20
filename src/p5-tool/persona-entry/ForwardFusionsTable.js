@@ -13,11 +13,15 @@ class ForwardFusionsTable extends React.PureComponent {
   }
 
   render() {
-    const { persona: name, personasUrl, tabLinks, moreTabLinks } = this.props
+    const { persona: name, personasUrl, tabLinks, moreTabLinks, hasDlc } = this.props
     const compCols = compEntry({ url: personasUrl })
-    const recipes = calculateForwardFusions(name)
     const data = PersonaData[name]
     const title = 'Lvl ' + data.lvl + ' ' + data.arcana + ' ' + name + ' x Ingredient 2 = Result'
+
+    const excludedNames = Object.keys(hasDlc)
+      .reduce( (acc, dlc) => (!hasDlc[dlc] ? acc.concat(dlc.split(',')) : acc), [] )
+
+    const recipes = calculateForwardFusions(name, excludedNames)
 
     return (
       <BatchLoadTable {...{ 
