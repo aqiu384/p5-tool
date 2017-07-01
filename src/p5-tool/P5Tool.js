@@ -11,15 +11,17 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import DlcPersonas from './data/DlcPersonas'
 import './P5Tool.css'
 
+const HAS_DLC_KEY = 'p5-tool/hasDlc'
+
 class P5Tool extends React.PureComponent {
   constructor(props) {
     super(props)
 
-    let hasDlc = JSON.parse(localStorage.getItem('hasDlc'))
+    let hasDlc = JSON.parse(localStorage.getItem(HAS_DLC_KEY))
     if (!hasDlc) {
       hasDlc = DlcPersonas.reduce( (acc, dlc) => { acc[dlc] = false; return acc }, {} )
       localStorage.clear()
-      localStorage.setItem('hasDlc', JSON.stringify(hasDlc))
+      localStorage.setItem(HAS_DLC_KEY, JSON.stringify(hasDlc))
     }
     window.addEventListener('storage', this.onStorageUpdated)
 
@@ -35,7 +37,7 @@ class P5Tool extends React.PureComponent {
 
   onStorageUpdated = (e) => {
     switch (e.key) {
-      case 'hasDlc':
+      case HAS_DLC_KEY:
         this.setState( () => ({ hasDlc: JSON.parse(e.newValue) }) )
         break
       default:
@@ -44,7 +46,7 @@ class P5Tool extends React.PureComponent {
   }
 
   onDlcSubmit = (hasDlc) => {
-    localStorage.setItem('hasDlc', JSON.stringify(hasDlc))
+    localStorage.setItem(HAS_DLC_KEY, JSON.stringify(hasDlc))
     this.setState( () => ({ hasDlc: hasDlc }) )
   }
 
