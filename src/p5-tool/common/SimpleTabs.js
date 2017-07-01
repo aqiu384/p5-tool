@@ -18,8 +18,8 @@ function SimpleTabs({ currTab, tabs, baseUrl }) {
   return (
     <div>
       {tabs.map( ({ name, content }) =>
-        <div key={name} className={name === currTab ? 'show' : 'hide'}>
-          {React.cloneElement(content, { tabLinks })}
+        <div key={name}>
+          {name === currTab && React.cloneElement(content, { tabLinks })}
         </div>
       )}
     </div>

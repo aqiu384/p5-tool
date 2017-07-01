@@ -18,7 +18,7 @@ class BatchLoadTable extends React.PureComponent {
     const rowsLeft = data.length - currRowCount
 
     if (rowsLeft > 0) {
-      setTimeout( () => { this.setState( () => ({ 
+      this.updateTimeout = setTimeout( () => { this.setState( () => ({ 
         currRowCount: currRowCount +
         (rowsLeft > batchSize ? batchSize : rowsLeft)
       }) ) }, updateInterval )
@@ -42,6 +42,12 @@ class BatchLoadTable extends React.PureComponent {
         initialSortCol: sortCol 
       })
     )
+  }
+
+  componentWillUnmount() {
+    if (this.updateTimeout) { 
+      clearTimeout(this.updateTimeout)
+    }
   }
 }
 

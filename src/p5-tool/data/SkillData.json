@@ -157,7 +157,7 @@
     }, 
     "Ayamur": {
         "cost": 25, 
-        "effect": "Deal 3 times medium Phys damage to 1 foe. High critical rate.", 
+        "effect": "Deal 3 times medium Phys damage to 1 foe. High accuracy.", 
         "element": "phys", 
         "unique": "Baal"
     }, 

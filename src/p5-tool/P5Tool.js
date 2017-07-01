@@ -14,8 +14,17 @@ import './P5Tool.css'
 class P5Tool extends React.PureComponent {
   constructor(props) {
     super(props)
+
+    let hasDlc = JSON.parse(localStorage.getItem('hasDlc'))
+    if (!hasDlc) {
+      hasDlc = DlcPersonas.reduce( (acc, dlc) => { acc[dlc] = false; return acc }, {} )
+      localStorage.clear()
+      localStorage.setItem('hasDlc', JSON.stringify(hasDlc))
+    }
+    window.addEventListener('storage', this.onStorageUpdated)
+
     this.state = {
-      hasDlc: DlcPersonas.reduce( (acc, dlc) => { acc[dlc] = false; return acc }, {} )
+      hasDlc
     }
   }
 
@@ -24,12 +33,23 @@ class P5Tool extends React.PureComponent {
       nextProps.match !== this.match
   }
 
+  onStorageUpdated = (e) => {
+    switch (e.key) {
+      case 'hasDlc':
+        this.setState( () => ({ hasDlc: JSON.parse(e.newValue) }) )
+        break
+      default:
+        break
+    }
+  }
+
   onDlcSubmit = (hasDlc) => {
+    localStorage.setItem('hasDlc', JSON.stringify(hasDlc))
     this.setState( () => ({ hasDlc: hasDlc }) )
   }
 
   render() {
-    const { match } = this.props
+    const { match, location } = this.props
     const { hasDlc } = this.state
 
     const baseUrl = match.url === '/' ? '' : match.url
@@ -60,7 +80,19 @@ class P5Tool extends React.PureComponent {
         <Route exact path={match.url} render={ () => <Redirect to={personasUrl}/> }/>
         <Route path="/index.html" render={ () => <Redirect to={`${baseUrl}/personas`}/> }/> 
         <Route path="/skills.html" render={ () => <Redirect to={`${baseUrl}/skills`}/> }/> 
-        <Route path="/personas.html" render={ () => <Redirect to={`${baseUrl}/personas`}/> }/> 
+        <Route path="/personas.html" render={ () => {
+          const nameParam = 'persona'
+          const nameBegin = location.search.indexOf(nameParam + '=')
+
+          let name = ''
+          if (nameBegin !== -1) {
+            const nameSuffix = location.search.substring(nameBegin + nameParam.length) + '&'
+            console.log(nameSuffix)
+            name = '/' + nameSuffix.substring(1, nameSuffix.indexOf('&'))
+          }
+
+          return <Redirect to={`${baseUrl}/personas${name}`}/>
+        } }/> 
         <Route path={`${baseUrl}/:tab`} render={ ({ match }) => (
           <div className="compendium">
             <div className={match.isExact ? 'show' : 'hide'}>
