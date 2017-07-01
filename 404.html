@@ -9,9 +9,9 @@
       const siteRoot = '/p5-tool'
       const pathParams = encodeURIComponent(l.pathname.slice(siteRoot.length))
       const replacePath = (
-        l.protocol + '//' + l.hostname + (l.prot ? ':' + l.port : '') +
-        siteRoot + (l.search ? l.search + '&' : '?') +
-        csrParam + '=' + pathParams + l.hash
+        l.protocol + '//' + l.hostname + (l.prot ? ':' + l.port : '') + siteRoot +
+        '?' + (l.search + '&' + csrParam + '=' + pathParams).slice(1) +
+        l.hash
       )
       l.replace(replacePath)
     </script>
