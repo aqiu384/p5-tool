@@ -2,14 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>P5 Tool Redirect</title>
+    <title>Megami Tensei Fusion Tools Redirect</title>
     <script type="text/javascript">
       const l = window.location
       const csrParam = 'csr'
       const siteRoot = '/p5-tool'
-      const pathParams = encodeURIComponent(l.pathname.slice(siteRoot.length))
+      const redirectBasedir = '/megaten-fusion-tool'
+      const redirectSubdir = '/p5'
+      const pathParams = encodeURIComponent(redirectSubdir + l.pathname.slice(siteRoot.length))
       const replacePath = (
-        l.protocol + '//' + l.hostname + (l.prot ? ':' + l.port : '') + siteRoot +
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + redirectBasedir +
         '?' + (l.search + '&' + csrParam + '=' + pathParams).slice(1) +
         l.hash
       )
@@ -17,6 +19,6 @@
     </script>
   </head>
   <body>
-    Please navigate manually to <code>/p5-tool</code>
+    Please navigate manually to <a href="/megaten-fusion-tool/p5">Persona 5 Fusion Tool</a>
   </body>
 </html>
